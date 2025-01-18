@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    background-image: url(images/tajMahal.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container { 
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+#clock{
+    font-size: 4.5em;
+    color: white;
+    font-weight: 900;
+    font-family: monospace;
+    backdrop-filter: blur(10px);
+    width: 100%;
+    text-align: center;
+    background-color: hsla(0, 0%, 100%, 0.099);
+}
